@@ -9,12 +9,11 @@ Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_3.4-0.tar.gz
-Requires:         R-Hmisc R-survival 
-Requires:         R-survival 
-Requires:         R-lattice R-quantreg R-nlme R-rpart R-polspline R-multcomp 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-Hmisc R-survival
-BuildRequires:    R-survival 
-BuildRequires:    R-lattice R-quantreg R-nlme R-rpart R-polspline R-multcomp 
+Requires:         R-Hmisc R-survival
+Requires:         R-lattice R-quantreg R-nlme R-rpart R-polspline R-multcomp
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-Hmisc R-survival
+BuildRequires:    R-lattice R-quantreg R-nlme R-rpart R-polspline R-multcomp
 
 %description
 Regression modeling, testing, estimation, validation, graphics,
