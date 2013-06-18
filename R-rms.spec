@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          3.6.3
-Release:          1
+Release:          2
 Summary:          Regression Modeling Strategies
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
