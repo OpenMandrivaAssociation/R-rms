@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          3.6.3
-Release:          2
+Version:          4.0.0
+Release:          1
 Summary:          Regression Modeling Strategies
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/rms_3.6-3.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/rms_4.0-0.tar.gz
 Requires:         R-Hmisc R-survival 
 Requires:         R-survival 
 Requires:         R-lattice R-quantreg R-nlme R-rpart R-polspline R-multcomp 
@@ -56,3 +56,4 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
 %{rlibdir}/%{packname}/demo
+
